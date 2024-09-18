@@ -27,7 +27,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={SacramentoFont.className}
+        className={NunitoFont.className}
       >
         <Provider>{children}</Provider>
       </body>
