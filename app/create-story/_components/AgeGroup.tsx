@@ -1,8 +1,8 @@
-"use client";
+"use client"
 import Image from "next/image";
 import React, { useState } from "react";
 
-function StoryType() {
+function AgeGroup() {
   const OptionList = [
     {
       label: "Story Book",
@@ -29,7 +29,9 @@ function StoryType() {
           <div
             key={index}
             className={`relative grayscale hover:grayscale-0 cursor-pointer p-1 ${
-              selectedOption == item.label ? "grayscale-0 border-2 rounded-3xl border-primary" : "grayscale"
+              selectedOption == item.label
+                ? "grayscale-0 border-2 rounded-3xl border-primary"
+                : "grayscale"
             }`}
             onClick={() => setSelectedOption(item.label)}
           >
@@ -50,4 +52,4 @@ function StoryType() {
   );
 }
 
-export default StoryType;
+export default AgeGroup;
