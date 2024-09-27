@@ -5,18 +5,18 @@ import React, { useState } from "react";
 function StoryType() {
   const OptionList = [
     {
-      label: "Story Book",
-      imageUrl: "/story.png",
+      label: "0-2 Years",
+      imageUrl: "/02Years.png",
       isFree: true,
     },
     {
-      label: "Bed Story ",
-      imageUrl: "/bedstory.png",
+      label: "3-5 Years",
+      imageUrl: "/35Years.png",
       isFree: true,
     },
     {
-      label: "Educational",
-      imageUrl: "/educational.png",
+      label: "5-8 Years",
+      imageUrl: "/58Years.png",
       isFree: true,
     },
   ];
